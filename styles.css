@@ -331,17 +331,27 @@ footer a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
     .sponsor-card {
-        flex-direction: column !important;
+        flex-direction: column;
         text-align: center;
     }
 
     .sponsor-logo {
         width: 150px;
+    }
+
+    .main-sponsor {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .main-sponsor-logo {
+        width: 200px;
         margin-bottom: 1rem;
     }
 
     .titlebar {
-        padding: 0.5rem 1rem;
+        padding: 1rem;
     }
 
     main {

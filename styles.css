@@ -258,35 +258,54 @@ a:hover {
 footer {
     background-color: var(--primary-color);
     color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    padding: 0 2rem;
 }
 
 .footer-logo {
-    height: 40px;
+    height: 30px;
     width: auto;
 }
 
 footer p {
     margin: 0;
+    color: white;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    margin: 0;
+    transition: opacity var(--transition-speed) ease;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+}
+
+.github-logo {
+    height: 24px;
+    width: 24px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+    transition: opacity var(--transition-speed) ease;
+}
+
+.github-logo:hover {
+    opacity: 1;
 }
 
 /* Working Images Section */

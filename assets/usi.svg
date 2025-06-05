@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="182.36267"
+   height="102.99213"
+   viewBox="0 0 182.36267 102.99213"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath26">
+      <path
+         d="M 0,0 H 136.772 V 77.244 H 0 Z"
+         id="path24" />
+    </clipPath>
+  </defs>
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,102.99213)">
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,80.0791,53.5215)"
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.5px;font-family:'Akzidenz-Grotesk Pro Med';-inkscape-font-specification:AkzidenzGroteskPro-Md;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text18"><tspan
+         x="0 4.8814998 8.658 10.3935 13.559 17.3615 19.831499 23.341499 25.109501 27.384501"
+         y="0"
+         id="tspan10">Università</tspan><tspan
+         x="0 3.9260001 7.7350001 9.4770002 11.271"
+         y="7.0005002"
+         id="tspan12">della</tspan><tspan
+         x="0 4.4134998 7.6504998 9.3535004 12.74 16.042 19.8445 22.3015"
+         y="14.001"
+         id="tspan14">Svizzera</tspan><tspan
+         x="0 1.768 4.0430002 7.6960001 9.4379997 11.219 14.872 18.681"
+         y="21.001499"
+         id="tspan16">italiana</tspan></text>
+    <g
+       id="g20">
+      <g
+         id="g22"
+         clip-path="url(#clipPath26)">
+        <g
+           id="g28"
+           transform="translate(56.7207,51.2148)">
+          <path
+             d="m 0,0 h -11.347 v 2.337 h 9.375 c -3.998,4.125 -9.596,6.691 -15.794,6.685 -12.133,-0.013 -21.959,-9.858 -21.947,-21.991 0.006,-5.952 2.383,-11.345 6.231,-15.298 -0.308,0.451 -0.526,0.916 -0.66,1.361 -0.223,0.767 -0.223,1.314 -0.248,3.497 v 10.441 h 3.274 v -10.764 c 0,-0.745 -0.025,-1.463 0.223,-2.133 0.67,-1.686 2.505,-1.885 3.547,-1.885 0.52,0 1.835,0.024 2.802,0.869 0.967,0.867 0.967,1.86 0.967,3.322 v 10.591 h 3.299 v -11.037 c -0.025,-1.984 -0.025,-3.62 -1.885,-5.208 -1.786,-1.562 -4.092,-1.711 -5.282,-1.711 -1.067,0 -2.109,0.124 -3.101,0.471 -0.408,0.141 -0.779,0.313 -1.115,0.509 3.795,-3.112 8.649,-4.976 13.939,-4.971 12.133,0.012 21.958,9.856 21.946,21.99 C 4.219,-8.091 2.65,-3.625 0,0 m -1.027,-11.704 -1.402,1.995 c 0.467,0.306 1.924,1.259 1.924,3.938 0,0.449 -0.036,0.917 -0.216,1.366 -0.377,0.917 -1.025,1.079 -1.456,1.079 -0.809,0 -1.097,-0.557 -1.259,-0.953 -0.108,-0.288 -0.126,-0.324 -0.395,-1.474 l -0.324,-1.529 c -0.198,-0.808 -0.288,-1.204 -0.45,-1.6 -0.233,-0.575 -1.006,-2.139 -3.11,-2.139 -2.409,0 -3.955,2.031 -3.955,5.016 0,2.733 1.348,4.207 2.57,5.106 l 1.457,-1.942 c -0.629,-0.431 -1.888,-1.258 -1.888,-3.29 0,-1.277 0.576,-2.391 1.546,-2.391 1.079,0 1.295,1.187 1.511,2.337 l 0.287,1.313 c 0.36,1.708 1.061,4.117 3.776,4.117 2.913,0 4.081,-2.697 4.081,-5.394 0,-0.701 -0.072,-1.492 -0.287,-2.265 -0.252,-0.845 -0.863,-2.338 -2.41,-3.29"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path30" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="M 77.244,59.528 H 68.74 v -42.52 h 8.504 z"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path32" />
+    <g
+       id="g34"
+       transform="translate(119.6143,59.5273)">
+      <path
+         d="M 0,0 V -42.52"
+         style="fill:none;stroke:#231f20;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path36" />
+    </g>
+  </g>
+</svg>

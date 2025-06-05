@@ -1,0 +1,383 @@
+:root {
+    --primary-color: #2C2E35;
+    --secondary-color: #04316A;
+    --text-color: #333;
+    --background-color: #fff;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Titlebar Styles */
+.titlebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all var(--transition-speed) ease;
+    padding: 1rem 2rem;
+}
+
+.titlebar.scrolled {
+    padding: 0.5rem 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    height: 40px;
+    transition: height var(--transition-speed) ease;
+}
+
+.titlebar.scrolled .logo {
+    height: 30px;
+}
+
+.logo-container h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: font-size var(--transition-speed) ease;
+}
+
+.titlebar.scrolled .logo-container h1 {
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 80px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Section */
+.hero {
+    margin-bottom: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.hero.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team-image-container {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.image-subtitle {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-text h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Sponsors Section */
+.sponsors {
+    margin-top: 4rem;
+}
+
+.main-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform var(--transition-speed) ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-sponsor:hover {
+    text-decoration: none;
+    transform: scale(1.02);
+}
+
+.main-sponsor-logo {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.main-sponsor .sponsor-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.main-sponsor h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.main-sponsor p {
+    color: var(--text-color);
+}
+
+.sponsors h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.sponsor-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sponsor-card {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all var(--transition-speed) ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sponsor-card:hover {
+    text-decoration: none;
+    transform: translateY(0) scale(1.02);
+}
+
+.sponsor-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.sponsor-card.visible:hover {
+    transform: scale(1.02);
+}
+
+.sponsor-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.sponsor-logo {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.sponsor-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.sponsor-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Group Image Section */
+.group-image {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.group-image .working-image-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.group-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+/* Link Hover Effects */
+a {
+    transition: transform var(--transition-speed) ease;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Working Images Section */
+.working-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.working-image-container {
+    position: relative;
+    max-width: 45%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.working-image-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.working-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.image-subtitle {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sponsor-card {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .sponsor-logo {
+        width: 150px;
+        margin-bottom: 1rem;
+    }
+
+    .titlebar {
+        padding: 0.5rem 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 0.5rem 0;
+    }
+
+    .working-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .working-image-container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .sponsor-logo {
+        width: 120px;
+    }
+} 

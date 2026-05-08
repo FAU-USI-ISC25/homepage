@@ -2,5 +2,5 @@
 
 Shortlink: https://go-nhr.de/fausion
 
-![Fausion Logo](/assets/fausion.svg)
-![Megware Logo](/assets/megware.svg)
+![Fausion Logo](/assets/logos/fausion.svg)
+![Megware Logo](/assets/logos/megware.svg)

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "url": "https://www.fau.de/",
+    "logo": "assets/logos/fau.svg",
+    "description": "Providing us with the foundation for our research and development."
+  },
+  {
+    "name": "Università della Svizzera Italiana",
+    "url": "https://www.usi.ch/",
+    "logo": "assets/logos/usi.svg",
+    "description": "Our second home university, with a long history of partnership with FAU."
+  },
+  {
+    "name": "NHR@FAU",
+    "url": "https://hpc.fau.de/",
+    "logo": "assets/logos/nhrfau.svg",
+    "description": "Providing us with access to high-performance computing resources."
+  },
+  {
+    "name": "CSCS",
+    "url": "https://www.cscs.ch/",
+    "logo": "assets/logos/cscs.svg",
+    "description": "The Swiss National Supercomputing Centre, supporting our high-performance computing endeavors."
+  },
+  {
+    "name": "NHR-Verein",
+    "url": "https://www.nhr-verein.de/",
+    "logo": "assets/logos/nhrverein.svg",
+    "description": "Supporting our participation in the Student Cluster Competition."
+  },
+  {
+    "name": "Chair of Computer Science 3 (Computer Architecture)",
+    "url": "https://www.cs3.tf.fau.de/",
+    "logo": "assets/logos/cs3.svg",
+    "description": "Supporting our computing infrastructure."
+  },
+  {
+    "name": "Croit",
+    "url": "https://www.croit.io/",
+    "logo": "assets/logos/croit.svg",
+    "description": "Enabling us with innovative storage solutions."
+  }
+]

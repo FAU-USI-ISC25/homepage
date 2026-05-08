@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Aditya Ujeniya",
+    "picture": "assets/people/aditya-ujeniya.webp",
+    "subtitle": "Supervisor · NHR@FAU",
+    "bio": "Doctoral student at NHR@FAU supervising the ISC SCC team."
+  },
+  {
+    "name": "Daniel Vega",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Supervisor · USI",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Jonah Holtmann",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · USI",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Mariia Dubnytska",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · USI",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Pablo Landrove Pérez-Gorgoroso",
+    "picture": "assets/people/aditya-ujeniya.webp",
+    "subtitle": "Student · NHR@FAU",
+    "bio": "Doctoral student at NHR@FAU supervising the ISC SCC team."
+  },
+  {
+    "name": "Nils",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Dennys",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Tobias",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  }
+]

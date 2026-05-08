@@ -1,22 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Titlebar scroll effect
-    const titlebar = document.querySelector('.titlebar');
-    let lastScroll = 0;
-
-    window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-        
-        if (currentScroll > 50) {
-            titlebar.classList.add('scrolled');
-        } else {
-            titlebar.classList.remove('scrolled');
-        }
-        
-        lastScroll = currentScroll;
-    });
-
     // Fade-in animation for elements
-    const fadeElements = document.querySelectorAll('.hero, .sponsor-card, .working-image-container, .group-image .working-image-container');
+    const fadeElements = document.querySelectorAll('.hero, .group-image .working-image-container');
     
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

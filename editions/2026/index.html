@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAUSION - Student Cluster Competition Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <fausion-header year="2026" root="../../"></fausion-header>
+
+    <main>
+        <section class="hero">
+            <div class="team-image-container">
+                <img src="../../assets/2026/team.jpg" alt="FAUSION Team" class="team-image">
+                <div class="image-subtitle">© Megware</div>
+            </div>
+            <div class="hero-text">
+                <h2>Welcome to FAUSION</h2>
+                <p>We are the FAUSION Student Cluster Competition Team, representing Friedrich-Alexander-Universität Erlangen-Nürnberg and Università della Svizzera Italiana at <a href="https://isc-hpc.com/" target="_blank">ISC'26 Hamburg</a> in the Student Cluster Competition.</p>
+                <p>Our team consists of six students from the Friedrich-Alexander-Universität (FAU) and the Università della Svizzera Italiana (USI). Two doctoral students, Aditya Ujeniya (NHR@FAU) and Daniel Vega (USI), supervise the ISC SCC team.</p>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <fausion-sponsors src="../../data/sponsors-2026.json" root="../../"
+                working-images='[{"src":"../../assets/2026/team.jpg","alt":"FAUSION Team","caption":"© Megware"},{"src":"../../assets/2026/group.JPG","alt":"FAUSION Group","caption":"© Megware"}]'></fausion-sponsors>
+        </section>
+
+        <section class="group-image">
+            <div class="working-image-container">
+                <img src="../../assets/2026/group.JPG" alt="FAUSION Group" class="group-photo">
+                <div class="image-subtitle">© Megware</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="../../assets/logos/fausion.svg" alt="FAUSION Logo" class="footer-logo">
+            <p>&copy; 2026 FAUSION</p>
+            <a href="impressum.html">Impressum</a>
+            <a href="https://github.com/FAU-USI-ISC26" target="_blank" class="github-link">
+                <img src="../../assets/logos/github.svg" alt="GitHub Logo" class="github-logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="../../components/fausion-header.js"></script>
+    <script src="../../components/sponsors-component.js"></script>
+    <script src="../../components/person-card.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

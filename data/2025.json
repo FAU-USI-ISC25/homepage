@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Aditya Ujeniya",
+    "picture": "assets/people/aditya-ujeniya.webp",
+    "subtitle": "Supervisor · NHR@FAU",
+    "bio": "Doctoral student at NHR@FAU supervising the ISC SCC team."
+  },
+  {
+    "name": "Daniel Vega",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Supervisor · USI",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Jonah Holtmann",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Supervisor · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Nils",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Alberto",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  },
+  {
+    "name": "Tornike",
+    "picture": "assets/people/daniel-vega.webp",
+    "subtitle": "Student · FAU",
+    "bio": "Doctoral student at USI supervising the ISC SCC team."
+  }
+]

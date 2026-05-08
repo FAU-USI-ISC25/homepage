@@ -1,50 +1,50 @@
 [
   {
     "name": "Aditya Ujeniya",
-    "picture": "assets/people/aditya-ujeniya.webp",
+    "picture": "assets/people/aditya-ujeniya.jpg",
     "subtitle": "Supervisor · NHR@FAU",
-    "bio": "Doctoral student at NHR@FAU supervising the ISC SCC team."
+    "bio": "PhD student at NHR@FAU. Double-degree master's at FAU and USI, with a joint thesis at the University of Tokyo. Research focuses on cluster-wide regression testing and system characterization. Expertise in performance modeling, low-level CPU/GPU programming, and optimization."
   },
   {
     "name": "Daniel Vega",
-    "picture": "assets/people/daniel-vega.webp",
+    "picture": "assets/people/daniel-vega.jpg",
     "subtitle": "Supervisor · USI",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "bio": "PhD student at USI. BSc in Informatics Engineering and BSc in Applied Computing, followed by an MSc in Financial Technology and Computing. Research focuses on HPC software performance testing. Presenter at ACM-endorsed conferences including M2P and PASC."
   },
   {
     "name": "Jonah Holtmann",
-    "picture": "assets/people/daniel-vega.webp",
-    "subtitle": "Student · USI",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "picture": "assets/people/jonah-holtmann.jpg",
+    "subtitle": "Team Captain · FAU/USI",
+    "bio": "EUMaster4HPC student at FAU and USI, research assistant at NHR@FAU. SC22 participant and former mentor to FAU competition teams. Bachelor's thesis on power consumption modeling. Primary interests: GPU programming and supercomputer architectures."
+  },
+  {
+    "name": "Dennys Huber",
+    "picture": "assets/people/dennys-huber.jpg",
+    "subtitle": "Student · FAU/USI",
+    "bio": "BSc in Informatics from University of Zurich, now in the EUMaster4HPC double-degree program at USI and FAU. Former software and data engineer in industry. Technical skills: C/C++, Python, MPI, OpenMP, and CUDA/HIP."
   },
   {
     "name": "Mariia Dubnytska",
-    "picture": "assets/people/daniel-vega.webp",
+    "picture": "assets/people/mariia-dubnytska.jpg",
     "subtitle": "Student · USI",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "bio": "BSc in Applied Mathematics from NaUKMA in Kyiv. Currently in the master's program in Computational Science at USI. Experience in numerical simulation of reactive transport using CSMP++, and parallel programming with OpenMP and MPI."
   },
   {
-    "name": "Pablo Landrove Pérez-Gorgoroso",
-    "picture": "assets/people/aditya-ujeniya.webp",
-    "subtitle": "Student · NHR@FAU",
-    "bio": "Doctoral student at NHR@FAU supervising the ISC SCC team."
-  },
-  {
-    "name": "Nils",
-    "picture": "assets/people/daniel-vega.webp",
+    "name": "Nils Lederer",
+    "picture": "assets/people/nils-lederer.jpg",
     "subtitle": "Student · FAU",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "bio": "Studying ICT at FAU with a focus on computer hardware and architectures. Main administrator for FAU's ASC24 team. Completed advanced coursework in cache optimization and joined the supercomputing lab in 2023. Interests: systems administration and computer architecture."
   },
   {
-    "name": "Dennys",
-    "picture": "assets/people/daniel-vega.webp",
-    "subtitle": "Student · FAU",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "name": "Pablo Landrove",
+    "picture": "assets/people/pablo-landrove.jpg",
+    "subtitle": "Student · USI",
+    "bio": "Double bachelor's in Mathematics and Computer Science from Universidade de Santiago de Compostela. Master of Informatics at USI since 2025. Strong competitive programming background. Technical skills: C/C++ with OpenMP, Python, MATLAB, and AI/ML."
   },
   {
-    "name": "Tobias",
-    "picture": "assets/people/daniel-vega.webp",
+    "name": "Tobias Rühl",
+    "picture": "assets/people/tobias-ruehl.jpg",
     "subtitle": "Student · FAU",
-    "bio": "Doctoral student at USI supervising the ISC SCC team."
+    "bio": "Computer Science master's student at FAU. SC24 team FAUcet member. Specialises in low-level HPC optimisation; bachelor's thesis developed WINIC, a platform-independent microbenchmarking tool. Submitted WINIC as a research paper to ISC26."
   }
 ]
